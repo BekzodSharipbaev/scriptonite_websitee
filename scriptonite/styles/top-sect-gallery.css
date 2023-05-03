@@ -1,0 +1,29 @@
+.top-sect-gallery {
+  margin-bottom: 50px;
+}
+
+.vertical-line {
+  width: 1.5px;
+  height: 70px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.gallery-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gallery-title h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.gallery-title h1 {
+  font-size: 40px;
+  margin-top: 0;
+}

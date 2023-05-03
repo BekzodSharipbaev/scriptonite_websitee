@@ -1,0 +1,75 @@
+.vertical-line {
+  width: 1.5px;
+  height: 70px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.album-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.album-title h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.album-title h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.albums-scripi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 45px;
+}
+
+.album {
+  margin-bottom: 20px;
+  position: relative;
+  transition: transform 0.3s ease-out;
+}
+
+.album:hover {
+  transform: scale(1.08);
+}
+
+.album-link {
+  position: absolute;
+  top: 0;
+  bottom: 70px;
+  right: 0;
+  left: 0;
+}
+
+
+.album img {
+  height: 346px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.album-name-year {
+  padding: 15px;
+}
+
+.album-name {
+  font-size: 22px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.album-year {
+  color: gray;
+  font-size: 14px;
+  transform: translateY(4px);
+}

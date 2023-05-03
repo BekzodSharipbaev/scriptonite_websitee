@@ -1,0 +1,36 @@
+.fav-scrip {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 100px 0;
+}
+
+.fav-text {
+  max-width: 500px;
+  margin: auto;
+  top: 10%;
+  left: 40%;
+  margin-right: 50px;
+}
+
+.quote-scrip-img {
+  width: 700px;
+  object-fit: cover;
+}
+
+.quote-scrip-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.quote-scrip {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.scrip-autograph {
+  width: 200px;
+  object-fit: cover;
+  margin-left: 200px;
+}

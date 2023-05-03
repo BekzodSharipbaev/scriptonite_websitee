@@ -1,0 +1,64 @@
+.top-sect-about-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.vertical-line {
+  width: 1.5px;
+  height: 70px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.title-about-us h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.my-goal-box,
+.my-plans-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.my-goal-title,
+.my-plans-title {
+  font-size: 30px;
+}
+
+.my-goal-descript,
+.my-plans-descript {
+  transform: translate(50px, 25px);
+  font-size: 18px;
+  line-height: 30px;
+  width: 1000px;
+}
+
+.my-plans-descript ul {
+  margin-bottom: 40px;
+}
+
+.my-plans-descript li {
+  display: flex;
+  margin-bottom: 20px;
+  list-style-type: none;
+  column-gap: 20px;
+}
+
+.my-plans-descript li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  font-size: 25px;
+}
+
+.my-plans-box {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}

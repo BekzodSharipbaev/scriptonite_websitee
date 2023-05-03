@@ -1,0 +1,29 @@
+.biography-sect {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bio-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.bio-img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.biography {
+  display: inline-block;
+  width: 300px;
+  line-height: 22px;
+  width: 450px;
+}
+
+.facts-title,
+.bio-title {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+

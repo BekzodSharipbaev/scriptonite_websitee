@@ -1,0 +1,125 @@
+.footer {
+  background: rgb(35, 60, 134);
+  background: linear-gradient(
+    180deg,
+    rgba(35, 60, 134, 1) 21%,
+    rgba(0, 0, 0, 1) 97%
+  );
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.owner {
+  font-size: 50px;
+  transform: translateY(-10px);
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.owner:hover {
+  transform: scale(0.8);
+}
+
+.copyright,
+.private-policy {
+  font-size: 15px;
+  transform: translateY(240px);
+}
+
+.social-networks-scripi {
+  display: flex;
+  width: 200px;
+  column-gap: 30px;
+  font-size: 20px;
+  transform: translate(-60px, 50px);
+}
+
+.social-networks-scripi a {
+  color: aliceblue;
+}
+
+.facebook-icon-box a,
+.instagram-icon-box a,
+.spotify-icon-box a,
+.youtube-icon-box a,
+.twitter-icon-box a,
+.apple-music-icon-box a {
+  transition: transform 0.8s;
+}
+
+.facebook-icon-box a:hover {
+  color: rgb(26, 110, 216);
+  transform: rotateY(360deg);
+}
+
+.instagram-icon-box a:hover {
+  color: rgb(225, 63, 110);
+  transform: rotateY(360deg);
+}
+
+.spotify-icon-box a:hover {
+  color: rgb(30, 215, 96);
+  transform: rotateY(360deg);
+}
+
+.youtube-icon-box a:hover {
+  color: rgb(255, 0, 0);
+  transform: rotateY(360deg);
+}
+
+.twitter-icon-box a:hover {
+  color: rgb(29, 155, 240);
+  transform: rotateY(360deg);
+}
+
+.apple-music-icon-box a:hover {
+  transform: rotateY(360deg);
+}
+
+.social-networks-scripi i {
+  font-size: 30px;
+}
+
+.facebook-icon-box,
+.instagram-icon-box,
+.spotify-icon-box,
+.youtube-icon-box,
+.apple-music-icon-box,
+.twitter-icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.facebook-icon-box .tooltip,
+.instagram-icon-box .tooltip,
+.spotify-icon-box .tooltip,
+.youtube-icon-box .tooltip,
+.apple-music-icon-box .tooltip,
+.twitter-icon-box .tooltip {
+  font-size: 10px;
+  background-color: gray;
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  padding: 4px 8px;
+}
+
+.facebook-icon-box:hover .tooltip,
+.instagram-icon-box:hover .tooltip,
+.spotify-icon-box:hover .tooltip,
+.youtube-icon-box:hover .tooltip,
+.apple-music-icon-box:hover .tooltip,
+.twitter-icon-box:hover .tooltip {
+  opacity: 1;
+}

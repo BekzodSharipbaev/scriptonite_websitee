@@ -1,0 +1,33 @@
+.feedback-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-bottom: 100px;
+}
+
+.feedback-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.my-contacts {
+  display: flex;
+}
+
+.contact {
+  margin: 25px;
+}
+
+.contact a {
+  font-size: 20px;
+  color: #233C86;
+}
+
+.contact a i {
+  transition: transform 0.8s;
+}
+
+.contact a:hover i {
+  transform: rotateY(360deg);
+}
+

@@ -1,0 +1,10 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  padding-top: 60px;
+  background-color: rgb(242, 242, 242);
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

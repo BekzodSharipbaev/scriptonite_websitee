@@ -1,0 +1,122 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000928;
+  color: white;
+  align-items: center;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  object-fit: cover;
+  width: 160px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.label-logo {
+  width: 50px;
+  margin-left: -15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.left-section:hover .label-logo {
+  transform: rotate(360deg);
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex: 1;
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.middle-section a {
+  cursor: pointer;
+  transition: color 0.15s;
+  text-decoration: none;
+  color: white;
+}
+
+.middle-section a:hover {
+  color: rgb(157, 132, 234);
+}
+
+.right-section {
+  margin-right: 30px;
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.right-section i {
+  font-size: 20px;
+}
+
+.right-section a {
+  text-decoration: none;
+}
+
+.right-section i:hover {
+  cursor: pointer;
+  color: rgb(157, 132, 234);  
+}
+
+.facebook-icon-box,
+.instagram-icon-box,
+.youtube-icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.facebook-icon-box .tooltip,
+.instagram-icon-box .tooltip,
+.youtube-icon-box .tooltip {
+  font-size: 10px;
+  background-color: rgb(157, 132, 234);
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  padding: 4px 8px;
+}
+
+.facebook-icon-box:hover .tooltip,
+.instagram-icon-box:hover .tooltip,
+.youtube-icon-box:hover .tooltip {
+  opacity: 1;
+}
+
+.right-section a {
+  color: rgb(228, 228, 228);
+  font-size: 18px;
+  transition: color 0.15s;
+}
+
+.right-section a:hover {
+  color: rgb(157, 132, 234);
+}
+
+
+
+
